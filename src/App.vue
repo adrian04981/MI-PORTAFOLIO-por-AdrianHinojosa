@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">Mi CV</router-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,10 +12,16 @@
               <router-link class="nav-link" to="/">Inicio</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/cv">CV</router-link>
+              <router-link class="nav-link" to="/education">Educación</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/skills">Habilidades</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/experience">Experiencia</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/contact">Contacto</router-link>
             </li>
           </ul>
         </div>
@@ -33,4 +39,8 @@ export default {
 
 <style>
 @import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+  font-family: 'Arial', sans-serif;
+  padding-top: 56px; /* Espacio para la barra de navegación fija */
+}
 </style>
