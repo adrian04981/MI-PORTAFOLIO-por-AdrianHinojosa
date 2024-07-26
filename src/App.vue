@@ -11,18 +11,6 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/">Inicio</router-link>
             </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/education">Educación</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/skills">Habilidades</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/experience">Experiencia</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contacto</router-link>
-            </li>
           </ul>
         </div>
       </div>
