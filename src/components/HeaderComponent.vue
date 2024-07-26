@@ -17,9 +17,9 @@ export default {
   name: 'HeaderComponent',
   data() {
     return {
-      name: 'Freya Moore',
-      title: 'Designer & Art Director',
-      email: 'mailto:your.email@example.com'
+      name: 'Adrian Hinojosa',
+      title: 'Developer',
+      email: 'mailto:adrian.armando20@gmail.com'
     }
   },
   computed: {
