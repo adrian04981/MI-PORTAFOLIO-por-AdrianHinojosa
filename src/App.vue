@@ -1,34 +1,87 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <router-link class="navbar-brand" to="/">Mi CV</router-link>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <router-link class="nav-link" to="/">Inicio</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class="sidebar">
+      <h1>Adrian</h1>
+      <ul>
+        <li><router-link to="/Header" exact-active-class="active">HOME</router-link></li>
+        <li><router-link to="/Education" exact-active-class="active">EDUCATION</router-link></li>
+        <li><router-link to="/Experiencia" exact-active-class="active">EXPERIENCE</router-link></li>
+        <li><router-link to="/skills" exact-active-class="active">SKILLS</router-link></li>
+        <li><router-link to="/Contact" exact-active-class="active">CONTACT</router-link></li>
+      </ul>
     </nav>
-    <router-view></router-view>
+    <main class="content">
+      <router-view></router-view>
+    </main>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App'
-}
-</script>
-
 <style>
-@import 'bootstrap/dist/css/bootstrap.min.css';
-body {
-  font-family: 'Arial', sans-serif;
-  padding-top: 56px; /* Espacio para la barra de navegación fija */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.sidebar h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #2c3e50;
+  position: relative;
+}
+
+.sidebar ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #2c3e50;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.sidebar ul li a:hover::after,
+.sidebar ul li a.router-link-exact-active::after {
+  width: 100%;
+  left: 0;
+  background: #2c3e50;
+}
+
+.content {
+  margin-left: 220px; /* Ajusta según el ancho del sidebar */
+  padding: 20px;
+  text-align: left;
+}
+
+/* Agrega más estilos para personalizar el aspecto del menú y el contenido */
 </style>
