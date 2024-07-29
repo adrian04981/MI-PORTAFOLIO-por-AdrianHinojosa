@@ -1,12 +1,11 @@
 <template>
   <div id="app">
     <nav class="sidebar">
-      <h1>Adrian</h1>
+      <img src="./assets/LOGO_Adrian Hinojosa.png" alt="Logo">
       <ul>
         <li><router-link to="/Header" exact-active-class="active">HOME</router-link></li>
         <li><router-link to="/Education" exact-active-class="active">EDUCATION</router-link></li>
         <li><router-link to="/Experiencia" exact-active-class="active">EXPERIENCE</router-link></li>
-        <li><router-link to="/skills" exact-active-class="active">SKILLS</router-link></li>
         <li><router-link to="/Contact" exact-active-class="active">CONTACT</router-link></li>
       </ul>
     </nav>
@@ -23,6 +22,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: #F2EFE6;
   margin-top: 60px;
 }
 
@@ -32,14 +32,14 @@
   top: 0;
   height: 100%;
   width: 200px;
-  background: #f0f0f0;
+  background: #E3D8B8;
   padding: 20px;
 }
 
-.sidebar h1 {
+.sidebar img {
+  max-width: 100%;
+  height: auto;
   margin-bottom: 30px;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .sidebar ul {
