@@ -1,15 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
 import ContactCard from '../components/ContactComponent.vue'
 import EducationCard from '../components/EducationComponent.vue'
 import ExperienciaCard from '../components/ExperienceComponent.vue'
-import HeaderComponent from '../components/HeaderComponent.vue'
-import skillsCard from '../components/SkillsComponent.vue'
+import ProfileAndSkills from '../views/ProfileAndSkills.vue'
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'ProfileAndSkills',
+    component: ProfileAndSkills
   }  ,
   {
     path: '/Contact',
@@ -26,16 +24,6 @@ const routes = [
     name: 'Experiencia-card',
     component: ExperienciaCard
   },
-  {
-    path: '/Header',
-    name: 'Header-component',
-    component: HeaderComponent
-  },
-  {
-    path: '/skills',
-    name: 'slills-card',
-    component: skillsCard
-  }
 
 ]
 

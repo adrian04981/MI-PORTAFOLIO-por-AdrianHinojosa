@@ -3,19 +3,33 @@
     <nav class="sidebar">
       <img src="./assets/LOGO_Adrian Hinojosa.png" alt="Logo">
       <ul>
-        <li><router-link to="/Header" exact-active-class="active">HOME</router-link></li>
-        <li><router-link to="/Education" exact-active-class="active">EDUCATION</router-link></li>
-        <li><router-link to="/Experiencia" exact-active-class="active">EXPERIENCE</router-link></li>
-        <li><router-link to="/Contact" exact-active-class="active">CONTACT</router-link></li>
+        <li><router-link to="/" exact-active-class="active">{{ $t('home') }}</router-link></li>
+        <li><router-link to="/Education" exact-active-class="active">{{ $t('education') }}</router-link></li>
+        <li><router-link to="/Experiencia" exact-active-class="active">{{ $t('experience') }}</router-link></li>
+        <li><router-link to="/Contact" exact-active-class="active">{{ $t('contact') }}</router-link></li>
+      
       </ul>
     </nav>
     <main class="content">
+      <button @click="changeLanguage('es')">ES</button>
+      <button @click="changeLanguage('en')">EN</button>
+      <button @click="changeLanguage('fr')">FR</button>
       <router-view></router-view>
     </main>
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  methods: {
+    changeLanguage(lang) {
+      this.$i18n.locale = lang;
+    }
+  }
+};
+</script>
+
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -78,10 +92,8 @@
 }
 
 .content {
-  margin-left: 220px; /* Ajusta según el ancho del sidebar */
+  margin-left: 220px;
   padding: 20px;
   text-align: left;
 }
-
-/* Agrega más estilos para personalizar el aspecto del menú y el contenido */
 </style>
