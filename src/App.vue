@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="sidebar">
-      <img src="./assets/Sin título.png" alt="Logo">
+      <img src="./assets/623651e8dc66d.r_d.738-428-11719.jpeg" alt="Logo">
       <ul>
         <li><router-link to="/" exact-active-class="active">{{ $t('home') }}</router-link></li>
         <li><router-link to="/Education" exact-active-class="active">{{ $t('education') }}</router-link></li>
