@@ -69,8 +69,8 @@
                       <li class="mb-2"><i class="fas fa-file-excel text-success"></i> Excel Intermedio</li>
                       <li class="mb-2"><i class="fas fa-draw-polygon text-info"></i> ArgGis</li>
                       <li class="mb-2"><i class="fas fa-database text-warning"></i> ERWin</li>
-                      <li class="mb-2"><img src="../assets/PhotoshopPNG.png" alt="Photoshop" class="icon"> Photoshop Intermedio</li>
-                      <li class="mb-2"><img src="../assets/IlustratorPNG.png" alt="Illustrator" class="icon"> Illustrator</li>
+                      <li class="mb-2"><img src="./assets/PhotoshopPNG.png" alt="Photoshop" class="icon"> Photoshop Intermedio</li>
+                      <li class="mb-2"><img src="./assets/IlustratorPNG.png" alt="Illustrator" class="icon"> Illustrator</li>
                       <li class="mb-2"><i class="fas fa-chart-bar text-info"></i> Power BI</li>
                       <li class="mb-2"><i class="fas fa-project-diagram text-primary"></i> Bizagi</li>
                     </ul>
