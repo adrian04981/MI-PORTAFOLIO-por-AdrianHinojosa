@@ -12,7 +12,16 @@ const messages = {
     skills: 'Skills',
     programmingLanguages: 'Programming Languages',
     frameworks: 'Frameworks',
-    otherSkills: 'Other Skills'
+    otherSkills: 'Other Skills',
+    workExperience: 'Work Experience',
+    assistantTitle: 'Assistant SSOMAC - GRUPO FLK (Jun 2023 - Jul 2023)',
+    assistantDescription: 'Provided support in the administrative area and collaborated on documentation for obtaining ISO 9001 and 45001 certifications.',
+    educationTitle: 'Education',
+    educationDescription: 'Universidad Ricardo Palma - Computer Engineering (2020 - Present)',
+    contactTitle: 'Contact',
+    contactPhone: 'Phone: 966-401-791',
+    contactEmail: 'Email: adrian.armando20@gmail.com',
+    contactAddress: 'Address: Cristobal de Peralta Sur 825'
   },
   es: {
     home: 'INICIO',
@@ -24,7 +33,16 @@ const messages = {
     skills: 'Habilidades',
     programmingLanguages: 'Lenguajes de Programación',
     frameworks: 'Frameworks',
-    otherSkills: 'Otras Habilidades'
+    otherSkills: 'Otras Habilidades',
+    workExperience: 'Experiencia Laboral',
+    assistantTitle: 'Asistente SSOMAC - GRUPO FLK (Jun 2023 - Jul 2023)',
+    assistantDescription: 'Brindé apoyo en el área administrativa y colaboré en la documentación para la obtención de las certificaciones ISO 9001 y 45001.',
+    educationTitle: 'Educación',
+    educationDescription: 'Universidad Ricardo Palma - Ingeniería Informática (2020 - Actualidad)',
+    contactTitle: 'Contacto',
+    contactPhone: 'Teléfono: 966-401-791',
+    contactEmail: 'Email: adrian.armando20@gmail.com',
+    contactAddress: 'Dirección: Cristobal de Peralta Sur 825'
   },
   fr: {
     home: 'ACCUEIL',
@@ -36,7 +54,16 @@ const messages = {
     skills: 'Compétences',
     programmingLanguages: 'Langages de Programmation',
     frameworks: 'Cadres',
-    otherSkills: 'Autres Compétences'
+    otherSkills: 'Autres Compétences',
+    workExperience: 'Expérience Professionnelle',
+    assistantTitle: 'Assistant SSOMAC - GROUPE FLK (Juin 2023 - Juil 2023)',
+    assistantDescription: 'A fourni un soutien dans le domaine administratif et a collaboré à la documentation pour l\'obtention des certifications ISO 9001 et 45001.',
+    educationTitle: 'Éducation',
+    educationDescription: 'Université Ricardo Palma - Ingénierie Informatique (2020 - Présent)',
+    contactTitle: 'Contact',
+    contactPhone: 'Téléphone: 966-401-791',
+    contactEmail: 'Email: adrian.armando20@gmail.com',
+    contactAddress: 'Adresse: Cristobal de Peralta Sur 825'
   }
 };
 
