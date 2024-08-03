@@ -97,7 +97,7 @@
           <div class="container text-center">
             <h2>{{ $t('contactTitle') }}</h2>
             <p>{{ $t('contactPhone') }}</p>
-            <p>{{ $t('contactEmail') }}</p>
+            <p> Email : adrian.armando20@gmail.com</p>
             <p>{{ $t('contactAddress') }}</p>
           </div>
         </section>

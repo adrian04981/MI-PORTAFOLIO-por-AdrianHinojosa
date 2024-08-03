@@ -20,7 +20,7 @@ const messages = {
     educationDescription: 'Universidad Ricardo Palma - Computer Engineering (2020 - Present)',
     contactTitle: 'Contact',
     contactPhone: 'Phone: 966-401-791',
-    contactEmail: 'Email: adrian.armando20@gmail.com',
+    contactEmail: 'Email',
     contactAddress: 'Address: Cristobal de Peralta Sur 825'
   },
   es: {
@@ -41,7 +41,7 @@ const messages = {
     educationDescription: 'Universidad Ricardo Palma - Ingeniería Informática (2020 - Actualidad)',
     contactTitle: 'Contacto',
     contactPhone: 'Teléfono: 966-401-791',
-    contactEmail: 'Email: adrian.armando20@gmail.com',
+    contactEmail: 'Email',
     contactAddress: 'Dirección: Cristobal de Peralta Sur 825'
   },
   fr: {
@@ -62,7 +62,7 @@ const messages = {
     educationDescription: 'Université Ricardo Palma - Ingénierie Informatique (2020 - Présent)',
     contactTitle: 'Contact',
     contactPhone: 'Téléphone: 966-401-791',
-    contactEmail: 'Email: adrian.armando20@gmail.com',
+    contactEmail: 'Email',
     contactAddress: 'Adresse: Cristobal de Peralta Sur 825'
   }
 };
