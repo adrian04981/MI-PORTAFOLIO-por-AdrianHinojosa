@@ -182,6 +182,26 @@ export default {
   animation: 1s cubic-bezier(.25, 1, .30, 1) wipe-out-bottom-right both;
 }
 
+.logo {
+  max-width: 80%;
+  height: auto;
+}
+
+.enter-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enter-button:hover {
+  background-color: #0056b3;
+}
+
 .main-container {
   display: flex;
   height: 100vh;
@@ -378,6 +398,21 @@ export default {
 
   .card-body i, .card-body img {
     font-size: 1.25rem;
+  }
+
+  .intro-container {
+    padding: 20px;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .enter-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
   }
 }
 </style>
