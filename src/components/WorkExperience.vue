@@ -25,11 +25,16 @@ export default {
       experiences: [
         {
           id: 1,
-          title: this.$t('assistantTitle'),
-          date: this.$t('assistantDate'),
-          description: this.$t('assistantDescription')
+          title: this.$t('assistantTitle1'),
+          date: this.$t('assistantDate1'),
+          description: this.$t('assistantDescription1')
         },
-        // Add more experiences as needed
+        {
+          id: 2,
+          title: this.$t('assistantTitle2'),
+          date: this.$t('assistantDate2'),
+          description: this.$t('assistantDescription2')
+        }
       ]
     };
   }
@@ -40,7 +45,6 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
 .work-experience {
-  background-color: #728C14;
   color: #fff;
   padding: 60px 0;
   width: 100%;

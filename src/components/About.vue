@@ -72,12 +72,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
 .full-background {
-  background-color: #BFF205;
   padding: 20px;
 }
 
 .container {
-  background-color: #BFF205;
+
   padding: 20px;
   border-radius: 10px;
 }

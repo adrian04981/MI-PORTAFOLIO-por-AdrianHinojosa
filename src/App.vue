@@ -8,14 +8,12 @@
       <NavbarComponent @change-language="changeLanguage"/>
       <div class="content-container background animate-main">
         <Header></Header>
-
-        
-
+        <About></About>
+        <WorkExperience></WorkExperience>
+        <Portfolio></Portfolio>
       </div>
-      <About></About>
-      <WorkExperience></WorkExperience>
-      <Education></Education>
-      <Contact></Contact>
+        <Education></Education>
+        <Contact></Contact>
     </div>
   </div>
 </template>
@@ -27,6 +25,7 @@ import About from '@/components/About.vue';
 import WorkExperience from '@/components/WorkExperience.vue';
 import Education from '@/components/Education.vue';
 import Contact from '@/components/Contact.vue';
+import Portfolio from '@/components/Portfolio.vue';
 
 export default {
   components: {
@@ -35,6 +34,7 @@ export default {
     About,
     WorkExperience,
     Education,
+    Portfolio,
     Contact
   },
   data() {
@@ -73,15 +73,6 @@ export default {
   }
   to {
     clip-path: polygon(-50% 0%, 200% 0, 0 200%, 0 -50%);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 
@@ -125,7 +116,9 @@ export default {
   flex-grow: 1;
   overflow-y: auto;
   padding: 20px;
-  background-color: #10101f;
+  background: url('@/assets/FondoPrincipal.png') no-repeat center center; /* Fondo con imagen */
+  background-size: cover; /* O usa contain si quieres que se ajuste */
+  background-attachment: scroll; /* La imagen se moverá con el contenido */
 }
 
 .animate-main {
@@ -136,7 +129,6 @@ export default {
   background-color: #BFF205;
   padding: 60px 0;
 }
-
 
 @media (max-width: 767px) {
   .content-container {
